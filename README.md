@@ -49,7 +49,7 @@ $ sudo mount / -o remount,rw
 ```
 - To supress the warning message: `sudo: unable to resolve host overo`, insert `overo 127.0.0.1` into /etc/hosts file, as follows:
 ```
-$ sudo echo "overo 127.0.0.'" .. /etc/hosts
+$ sudo echo "overo 127.0.0.1" >> /etc/hosts
 ```
 
 ```
