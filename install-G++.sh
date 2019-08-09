@@ -5,7 +5,7 @@ install_gpp(){
 	tar -Jxf g++.tar.xz
 	cd g++/
 	echo "Installing G++..."
-	#dpkg -i *.deb
+	dpkg -i *.deb
 	cd ..
 	rm g++/ -rf
 }

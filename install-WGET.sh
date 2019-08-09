@@ -5,7 +5,7 @@ install_wget(){
 	tar -Jxf wget.tar.xz
 	cd wget/
 	echo "Installing WGET..."
-	#dpkg -i *.deb
+	dpkg -i *.deb
 	cd ..
 	rm wget/ -rf
 }

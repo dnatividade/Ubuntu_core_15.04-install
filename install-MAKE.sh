@@ -5,7 +5,7 @@ install_make(){
 	tar -Jxf make.tar.xz
 	cd make/
 	echo "Installing MAKE..."
-	#dpkg -i *.deb
+	dpkg -i *.deb
 	cd ..
 	rm make/ -rf
 }

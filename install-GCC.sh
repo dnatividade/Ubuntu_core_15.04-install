@@ -5,7 +5,7 @@ install_gcc(){
 	tar -Jxf gcc.tar.xz
 	cd gcc/
 	echo "Installing GCC..."
-	#dpkg -i *.deb
+	dpkg -i *.deb
 	cd ..
 	rm gcc/ -rf
 }
