@@ -1,5 +1,5 @@
 # Ubuntu_core_15.04-install
-#### Package Installation Procedures on Ubuntu Core 15.04 and Gumstix Overo Platform (armhf)
+#### Package installation procedures on Ubuntu Core 15.04 and Gumstix Overo platform (armhf)
 
 ---
 
