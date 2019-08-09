@@ -53,17 +53,20 @@ $ sudo mount / -o remount,rw
 $ ifconfig
 ```
 
-- On local machine, download this repository and tranfer to Ubuntu core by scp:
+- On local machine, download this repository, convert to tar.bz2 and tranfer to Ubuntu core by scp:
 ```
 #(on local machine)
 wget https://github.com/dnatividade/Ubuntu_core_15.04-install/archive/master.zip
-scp master.zip ubuntu@IP_ADDRESS_UBUNTU:/home/ubuntu/
+
+unzip master.zip && mv Ubuntu_core_15.04-install-master/ master && tar -cvjf master.tar.bz2 master/ && rm master/ -rf && rm master.zip
+
+scp master.tar.bz2 ubuntu@IP_ADDRESS_UBUNTU:/home/ubuntu/
 ```
 
 - Log on Ubuntu with ssh and extract the zip file:
 ```
 #(on local machine)
-ssh ubuntu
+ssh ubuntu@@IP_ADDRESS_UBUNTU
 gunzip master.zip
 ```
 
