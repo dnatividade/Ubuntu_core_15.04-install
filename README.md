@@ -25,7 +25,11 @@ CAUTION
 ---
 - - During boot, the screen stay empty (black). No beep and no image is shown on the screen. This time is about **1m30s**.
 - - Ubuntu core has no graphical interface, just command line.
-- - USB keybord doesn't work if directly connected on USB port. **You need to use a USB HUB for any USB device to work**, as shown in the image below.
+- - USB keybord doesn't work if directly connected on USB port. **You need to use a USB HUB for any USB device to work**, as shown in the image below:
+
+![gumstix](https://raw.githubusercontent.com/dnatividade/Ubuntu_core_15.04-install/master/images/gumstix.jpg)
+
+![gumstix](https://raw.githubusercontent.com/dnatividade/Ubuntu_core_15.04-install/master/images/gumstix2.jpg)
 
 
 
