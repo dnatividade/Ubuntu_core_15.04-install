@@ -63,11 +63,12 @@ unzip master.zip && mv Ubuntu_core_15.04-install-master/ master && tar -cvjf mas
 scp master.tar.bz2 ubuntu@IP_ADDRESS_UBUNTU:/home/ubuntu/
 ```
 
-- Log on Ubuntu with ssh and extract the zip file:
+- Log on Ubuntu with ssh and extract the *.tar.bz2* file:
 ```
 #(on local machine)
 ssh ubuntu@@IP_ADDRESS_UBUNTU
-gunzip master.zip
+
+$ tar -xvjf master.tar.bz2
 ```
 
 ---
