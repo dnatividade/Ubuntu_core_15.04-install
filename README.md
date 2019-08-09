@@ -43,6 +43,14 @@ pass: ubuntu
 $ passwd
 NEW_PASSWORD
 ```
+- Remount file system as RW, as follows:
+```
+$ sudo mount / -o remount,rw
+```
+- To supress the warning message: `sudo: unable to resolve host overo`, insert `overo 127.0.0.1` into /etc/hosts file, as follows:
+```
+$ sudo echo "overo 127.0.0.'" .. /etc/hosts
+```
 
 ```
 $ ifconfig
