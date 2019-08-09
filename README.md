@@ -33,7 +33,7 @@ CAUTION
 ---
 ### draft...
 
-- Log on Ubuntu with default credentials, change password and get IP address:
+- Log on Ubuntu with default credentials and change password:
 ```
 user: ubuntu
 pass: ubuntu
@@ -47,11 +47,8 @@ NEW_PASSWORD
 ```
 $ sudo mount / -o remount,rw
 ```
-- To supress the warning message: `sudo: unable to resolve host overo`, insert `overo 127.0.0.1` into /etc/hosts file, as follows:
-```
-$ sudo echo "overo 127.0.0.1" >> /etc/hosts
-```
-
+- To supress the warning message: `sudo: unable to resolve host overo`, insert `127.0.0.1 overo` into */etc/hosts* file.
+- Get IP address:
 ```
 $ ifconfig
 ```
