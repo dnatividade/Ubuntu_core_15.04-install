@@ -37,20 +37,29 @@ CAUTION
 ---
 ### draft...
 
-- Log on Ubuntu with default credentials and change password:
+- Log on Ubuntu with default credentials:
 ```
 user: ubuntu
 pass: ubuntu
 ```
 
-```
-$ passwd
-NEW_PASSWORD
-```
 - Remount file system as RW, as follows:
 ```
 $ sudo mount / -o remount,rw
 ```
+
+- **CAUTION**: this Ubuntu image comes with a public key in the `authorized_keys` SSH file (called ash@gumstux). Remove it immediately, with the following commands:
+```
+rm /ubuntu/.ssh/authorized_keys
+sudo rm /root/.ssh/authorized_keys
+```
+
+- Change password:
+```
+$ passwd
+NEW_PASSWORD
+```
+
 - To supress the warning message: `sudo: unable to resolve host overo`, insert `127.0.0.1 overo` into */etc/hosts* file.
 - Get IP address:
 ```
