@@ -21,10 +21,7 @@ https://mega.nz/#!bOwniSyY!ozUl1McXS53jhYXr-BEwtSkc4uYdCZth1BeOKsVOc10
 - Remove memory card from local computer and put on Gumstix.
 - Power on Gumstix and system will boot from memory card.
 
-<div class="text-white bg-red mb-2">
-  .text-white on .bg-red
-</div>
-
+![CAUTION](https://img.shields.io/badge/-CAUTION-red)
 CAUTION
 ---
 - - During boot, the screen stay empty (black). No beep and no image is shown on the screen. This time is about **1m30s**.
