@@ -5,6 +5,7 @@ install_all(){
 	./install-MAKE.sh
 	./install-GCC.sh
 	./install-G++.sh
+	./install-UNZIP.sh
 }
 
 MYUSER=`whoami`
