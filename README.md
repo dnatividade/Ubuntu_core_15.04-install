@@ -21,7 +21,7 @@ https://mega.nz/#!bOwniSyY!ozUl1McXS53jhYXr-BEwtSkc4uYdCZth1BeOKsVOc10
 - Remove memory card from local computer and put on Gumstix.
 - Power on Gumstix and system will boot from memory card.
 
-![CAUTION](https://img.shields.io/badge/-CAUTION-red)
+CAUTION
 ---
 - - During boot, the screen stay empty (black). No beep and no image is shown on the screen. This time is about **1m30s**.
 - - Ubuntu core has no graphical interface, just command line.
@@ -48,7 +48,7 @@ pass: ubuntu
 $ sudo mount / -o remount,rw
 ```
 
-- **CAUTION**: this Ubuntu image comes with a public key in the `authorized_keys` SSH file (called ash@gumstux). Remove it immediately, with the following commands:
+![CAUTION](https://img.shields.io/badge/-CAUTION-red): this Ubuntu image comes with a public key in the `authorized_keys` SSH file (called ash@gumstux). Remove it immediately, with the following commands:
 ```
 rm /ubuntu/.ssh/authorized_keys
 sudo rm /root/.ssh/authorized_keys
