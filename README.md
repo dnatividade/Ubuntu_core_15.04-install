@@ -22,7 +22,6 @@ https://mega.nz/#!bOwniSyY!ozUl1McXS53jhYXr-BEwtSkc4uYdCZth1BeOKsVOc10
 - Power on Gumstix and system will boot from memory card.
 
 ![CAUTION](https://img.shields.io/badge/-CAUTION-red)
-CAUTION
 ---
 - - During boot, the screen stay empty (black). No beep and no image is shown on the screen. This time is about **1m30s**.
 - - Ubuntu core has no graphical interface, just command line.
