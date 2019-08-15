@@ -47,12 +47,15 @@ pass: ubuntu
 ```
 $ sudo mount / -o remount,rw
 ```
+----
 
-![CAUTION](https://img.shields.io/badge/-CAUTION-red): this Ubuntu image comes with a public key in the `authorized_keys` SSH file (called ash@gumstux). Remove it immediately, with the following commands:
+![CAUTION](https://img.shields.io/badge/-CAUTION-red)
+**This Ubuntu image comes with a public key in the `authorized_keys` SSH file (called ash@gumstux). Remove it immediately, with the following commands:**
 ```
 rm /ubuntu/.ssh/authorized_keys
 sudo rm /root/.ssh/authorized_keys
 ```
+----
 
 - Change password:
 ```
