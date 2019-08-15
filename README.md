@@ -1,4 +1,4 @@
-# Ubuntu_core_15.04-install
+# Ubuntu_core_15.04-install ![docs-trainings](https://img.shields.io/badge/docs-PtBR-green)
 #### Package installation procedures on Ubuntu Core 15.04 and Gumstix Overo platform (armhf)
 
 ---
