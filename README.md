@@ -21,7 +21,7 @@ https://mega.nz/#!bOwniSyY!ozUl1McXS53jhYXr-BEwtSkc4uYdCZth1BeOKsVOc10
 - Remove memory card from local computer and put on Gumstix.
 - Power on Gumstix and system will boot from memory card.
 
-<span style="color:red"><b>CAUTION</b></span>
+<span style="color:red">CAUTION</span>
 
 CAUTION
 ---
