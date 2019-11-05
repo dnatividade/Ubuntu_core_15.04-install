@@ -8,7 +8,7 @@
 $ wget http://gumstix-snappy.s3.amazonaws.com/overo.img.xz
 $ xz -d overo.img.xz
 $ sudo dd if=overo.img of=/dev/sdX bs=4k status=progress
-#(sdbX is your memory card device)
+#(sdX is your memory card device)
 ```
 (source: https://lists.ubuntu.com/archives/snappy-devel/2015-April/000525.html)
 
